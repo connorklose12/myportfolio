@@ -1,3 +1,6 @@
+A portfolio where I used the template of a talented programmer, named Shaq Deff. Here is the original README:
+
+
 # Portfolio Template
 
 https://github.com/shaqdeff/Portfolio-Template/assets/92020713/eed76a82-e59d-440b-a04c-a2dc00a508b7
