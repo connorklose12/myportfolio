@@ -5,6 +5,7 @@ import {
   prototyping,
   javascript,
   typescript,
+  mariweather_image,
   papeyimage,
   noteswapimage,
   html,
@@ -290,6 +291,29 @@ const projects = [
     image: papeyimage,
     repo: 'https://github.com/connorklose12/papeyonlinee',
     demo: 'https://papeyonlinee-production.up.railway.app',
+  },
+  {
+    id: 'project-3',
+    name: 'Mariweather',
+    description:
+      'A weather checking app that allows you to pick a city or else check your location.  -Spring Boots, Java, JavaScript, HTML, CSS, Railway',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: mariweather_image,
+    repo: 'https://github.com/connorklose12/mariweather',
+    demo: 'https://mariweather-production.up.railway.app',
   },
   // {
   //   id: 'project-3',

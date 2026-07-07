@@ -60,6 +60,7 @@ import kelhel from './company/kelhel.png';
 import microverse from './company/microverse.png';
 import papeyimage from './projects/papeyimage.jpeg';
 import noteswapimage from './projects/noteswapimage.png';
+import mariweather_image from './projects/mariweather_image.png';
 import komikult from './projects/komikult.png';
 import leaderboard from './projects/leaderboard.png';
 import math from './projects/math-magicians.png';
@@ -77,6 +78,7 @@ export {
   IMG_1565,
   noteswapimage,
   papeyimage,
+  mariweather_image,
   backend,
   ux,
   frontend,
