@@ -295,7 +295,7 @@ const projects = [
   },
    {
     id: 'project-3',
-    name: 'Mariweather',
+    name: 'Vidmasta',
     description:
       'Turns image into video with text2speech, music, background, etc. Click on website for more details -GCloud APIs, Tiktok + Facebook for Developers, Angular, TypeScript, JavaScript, HTML, CSS',
     tags: [
