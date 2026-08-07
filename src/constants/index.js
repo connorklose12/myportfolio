@@ -6,6 +6,7 @@ import {
   javascript,
   typescript,
   mariweather_image,
+  vidmas_image,
   papeyimage,
   noteswapimage,
   html,
@@ -292,8 +293,31 @@ const projects = [
     repo: 'https://github.com/connorklose12/papeyonlinee',
     demo: 'https://papeyonlinee-production.up.railway.app',
   },
-  {
+   {
     id: 'project-3',
+    name: 'Mariweather',
+    description:
+      'Turns image into video with text2speech, music, background, etc. Click on website for more details -GCloud APIs, Tiktok + Facebook for Developers, Angular, TypeScript, JavaScript, HTML, CSS',
+    tags: [
+      {
+        name: 'react',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'restapi',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'scss',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: vidmas_image,
+    repo: 'https://github.com/connorklose12/vidmasta',
+    demo: 'https://connorklose12.github.io/vidmasta',
+  },
+  {
+    id: 'project-4',
     name: 'Mariweather',
     description:
       'A weather checking app that allows you to pick a city or else check your location.  -Spring Boots, Java, JavaScript, HTML, CSS, Railway',

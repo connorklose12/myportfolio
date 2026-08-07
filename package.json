@@ -5,7 +5,7 @@
   "type": "module",
   "homepage": "https://connorklose12.github.io/myportfolio",
   "scripts": {
-     "predeploy": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
