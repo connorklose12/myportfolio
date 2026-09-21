@@ -15,7 +15,7 @@ const ArtCard = ({ experience, index }) => (
         className="w-full h-full object-contain"
       />
     </div>
-    <p className="text-taupe text-[9px] leading-[12px] font-poppins mt-2 text-center line-clamp-2">
+    <p className="text-taupe text-[11px] leading-[14px] font-poppins mt-2 text-center">
       {experience.date}
     </p>
   </motion.div>
@@ -45,9 +45,8 @@ const Experience = () => {
         initial="hidden"
         whileInView="show"
         viewport={{ once: false, amount: 0.15 }}
-        className="mt-10 grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 
-        lg:grid-cols-5 xl:grid-cols-6 
-        gap-5 sm:px-16 px-[2rem]">
+        className="mt-10 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 
+        gap-6 sm:px-16 px-[2rem] items-start">
         {experiences.map((experience, index) => (
           <ArtCard key={index} experience={experience} index={index} />
         ))}
