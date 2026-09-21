@@ -7,7 +7,7 @@ import { fadeIn, textVariant, staggerContainer } from '../utils/motion';
 const ArtCard = ({ experience, index }) => (
   <motion.div
     variants={fadeIn('up', 'spring', index * 0.08, 0.6)}
-    className="bg-jetLight rounded-[16px] p-3 shadow-card flex flex-col items-center">
+    className="bg-jetLight rounded-[16px] p-2 shadow-card flex flex-col items-center">
     <div className="w-full aspect-square flex items-center justify-center bg-night/20 rounded-[10px] overflow-hidden">
       <img
         src={experience.title}
@@ -15,7 +15,7 @@ const ArtCard = ({ experience, index }) => (
         className="w-full h-full object-contain"
       />
     </div>
-    <p className="text-taupe text-[11px] leading-[15px] font-poppins mt-3 text-center">
+    <p className="text-taupe text-[9px] leading-[12px] font-poppins mt-2 text-center line-clamp-2">
       {experience.date}
     </p>
   </motion.div>
@@ -46,8 +46,8 @@ const Experience = () => {
         whileInView="show"
         viewport={{ once: false, amount: 0.15 }}
         className="mt-10 grid grid-cols-2 xs:grid-cols-3 sm:grid-cols-4 
-        md:grid-cols-5 lg:grid-cols-6 xl:grid-cols-7 2xl:grid-cols-8 
-        gap-3 sm:px-16 px-[2rem]">
+        lg:grid-cols-5 xl:grid-cols-6 
+        gap-5 sm:px-16 px-[2rem]">
         {experiences.map((experience, index) => (
           <ArtCard key={index} experience={experience} index={index} />
         ))}
