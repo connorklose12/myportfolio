@@ -270,29 +270,21 @@ const projects = [
     repo: 'https://github.com/connorklose12/uninotecon',
     demo: 'https://connorklose12.github.io/uninotecon/#/class/Sample%20Class%2011',
   },
-  {
-    id: 'project-2',
-    name: 'Papey Online',
-    description:
-      'A game based off of popular .io games where you can play online with other players. Take up as much terrain as possible!  -Django, SQL, Python, JavaScript, HTML, CSS, Railway, Daphne',
-    tags: [
-      {
-        name: 'react',
-        color: 'blue-text-gradient',
-      },
-      {
-        name: 'restapi',
-        color: 'green-text-gradient',
-      },
-      {
-        name: 'scss',
-        color: 'pink-text-gradient',
-      },
-    ],
-    image: papeyimage,
-    repo: 'https://github.com/connorklose12/papeyonlinee',
-    demo: 'https://papeyonlinee-production.up.railway.app',
-  },
+ {
+  id: 'project-2',
+  name: 'Papey Online',
+  description:
+    'A game based off of popular .io games where you can play online with other players. Take up as much terrain as possible!  -Django, SQL, Python, JavaScript, HTML, CSS, Railway, Daphne',
+  tags: [
+    { name: 'react', color: 'blue-text-gradient' },
+    { name: 'restapi', color: 'green-text-gradient' },
+    { name: 'scss', color: 'pink-text-gradient' },
+  ],
+  image: papeyimage,
+  repo: 'https://github.com/connorklose12/papeyonlinee',
+  demo: 'https://papeyonlinee-production.up.railway.app',
+  fallbackVideo: 'https://www.youtube.com/watch?v=_S4B6wfRJdA',
+},
    {
     id: 'project-3',
     name: 'Vidmasta',
